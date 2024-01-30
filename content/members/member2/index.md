@@ -1,5 +1,5 @@
 ---
-title: "MEMBER 3"
+title: "MEMBER 2"
 date: 2024-01-01
 draft: false
 summary: "Short bio goes here."

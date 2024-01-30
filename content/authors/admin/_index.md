@@ -1,6 +1,6 @@
 ---
 # Display name
-title: NOMBRE DEL PROYECTO
+title: NAME OF PROJECT
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -21,7 +21,7 @@ role: ''
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ORGANIZACIÓN
+  - name: ORGANIZATION
     url: https://score.us.es/
 
 # Short bio (displayed in user profile at end of posts)
@@ -119,5 +119,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-DESCRIPCIÓN DEL PROYECTO
+DESCRIPTION OF PROJECT
 {style="text-align: justify;"}
