@@ -39,17 +39,31 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: Description
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
+  - block: collection
+    id: members
     content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
+      title: Our Team
+      # Otras configuraciones de la sección...
+      filters:
+        folders:
+          - members
+    # Configura cómo se mostrarán los miembros, como el número de columnas, el orden, etc.
     design:
-      columns: '1'
+      columns: '2' # Número de columnas, ajustar según sea necesario
+      view: mansory # O cualquier otra vista que prefieras
+      flip_alt_rows: true # Si quieres que las filas alternas se muestren en orden inverso
+
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     text: ''
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #   design:
+  #     columns: '1'
   - block: experience
     content:
       title: Experience
